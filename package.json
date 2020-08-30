@@ -9,7 +9,11 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
+    "@types/jest": "^26.0.10",
     "commander": "^3.0.2",
     "inquirer": "^7.3.3",
     "node-todo-jm": "^0.0.1"
