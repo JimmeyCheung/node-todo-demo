@@ -1,5 +1,5 @@
 {
-  "name": "node-todo-1",
+  "name": "node-todo-jm",
   "bin": {
     "t": "cli.js"
   },
@@ -11,6 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^3.0.2",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "node-todo-jm": "^0.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
